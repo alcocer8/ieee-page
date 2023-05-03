@@ -35,12 +35,28 @@ const Navbar = () => {
             <Link to="/" onClick={handleNav}>
               <LogoIEEE />
             </Link>
+
+            <Link
+              to="/"
+              onClick={handleNav}
+              className="hover:text-yellow-400 text-center"
+            >
+              Home
+            </Link>
             <Link
               onClick={handleNav}
               className="hover:text-yellow-400 text-center"
               to="/call-for-papers"
             >
               Call For Papers
+            </Link>
+
+            <Link
+              onClick={handleNav}
+              className="hover:text-yellow-400 text-center"
+              to="/submission-of-papers"
+            >
+              Submission Of Papers
             </Link>
 
             <Link
@@ -54,7 +70,7 @@ const Navbar = () => {
             <Link
               onClick={handleNav}
               className="hover:text-yellow-400 text-center"
-              to="/call-for-papers"
+              to="/topics"
             >
               Topic
             </Link>
@@ -62,7 +78,7 @@ const Navbar = () => {
             <Link
               onClick={handleNav}
               className="hover:text-yellow-400 text-center"
-              to="/call-for-papers"
+              to="/registration"
             >
               Registration
             </Link>
@@ -80,7 +96,7 @@ const Navbar = () => {
               className="hover:text-yellow-400 text-center"
               to="/call-for-papers"
             >
-              CIPEV IEEE
+              Past Events
             </Link>
           </div>
         </ul>

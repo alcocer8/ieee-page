@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
         <p> - </p>
         <Typed
-          className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-yellow-400"
+          className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-blue-400"
           strings={["Boca del Río, Veracruz, México", "23 to 26 October 2023", "On-Site Event"]}
           typeSpeed={120}
           backSpeed={50}
