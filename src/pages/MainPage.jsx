@@ -14,7 +14,7 @@ const MainPage = () => {
       <IndustrySector />
       <Workshops />
     </>
-  );
+  );a
 };
 
 export default MainPage;

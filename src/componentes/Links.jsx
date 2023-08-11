@@ -31,8 +31,8 @@ const Links = () => {
       <Link className="hover:text-yellow-400 px-3  border-r" to="#">
         Committees
       </Link>
-      <Link className="hover:text-yellow-400 px-3" to="#">
-        Past Events
+      <Link className="hover:text-yellow-400 px-3" to="/beca">
+        Beca IEEE
       </Link>
     </ul>
   );

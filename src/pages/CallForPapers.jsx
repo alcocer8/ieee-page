@@ -6,7 +6,7 @@ const CallForPapers = () => {
     <>
       {/* Hero azul */}
       <div className="font-mono bg-blue-600">
-        <div className="w-full h-screen flex flex-col justify-center xl:container p-6">
+        <div className="w-full h-screen flex flex-col justify-center px-20">
           <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 text-center">
             2023 IEEE International Conference on Engineering Veracruz (IEEE
             ICEV 2023)®
@@ -19,7 +19,7 @@ const CallForPapers = () => {
 
           <div className="mx-auto w-fit flex flex-col md:flex-row gap-4">
             <a
-              href="/assets/call-to-papers.png"
+              href="/assets/call-for-paper.pdf"
               className="text-xl uppercase bg-black  text-white py-2 px-4 rounded-xl  hover:bg-white hover:text-black transition-all duration-500 "
             >
               View Full Document
@@ -46,23 +46,26 @@ const CallForPapers = () => {
               (2023 IEEE Conferencia Internacional de las Ingenierías Veracruz).
               The conference will be held in a On-Site Environment from 23 to 26
               October 2023, organized by the Universidad Veracruzana, the CASS
-              Professional Chapter, the IEEE Student Branches and IEEE RAS
-              Student Chapter with the support of IEEE Veracruz Section,
-              Instituto Internacional de Innovación Tecnológica Inteligente de
-              las Ingenierías (IIITII) and Universidad Cristóbal Colón (UCC) and
-              Consejo Veracruzano de Investigacion Cientifica y Desarrollo
-              Tecnologico (Coveicydet)
+              Professional Chapter, the IEEE Student Branches, IEEE EDS Student
+              Chapter and IEEE RAS Student Chapter with the support of IEEE
+              Veracruz Section, Instituto Internacional de Innovación
+              Tecnológica Inteligente de las Ingenierías (IIITII), Universidad
+              Cristóbal Colón (UCC) and Consejo Veracruzano de Investigación
+              Científica y Desarrollo Tecnológico (Coveicydet).
             </p>
 
             <p>
               IEEE ICEV 2023® is technically sponsored by IEEE. Accepted papers
               will be submitted for inclusion into IEEE Xplore. Authors from all
               over the world are invited to submit original and unpublished
-              papers, which are not under review in any other conference.
+              papers, which are not under review in any other conference. All
+              papers will be peer reviewed by the technical program committee.
+              Submitted papers must be written in English and should be in PDF
+              format. Paper length must be between 4 and 6 pages.
             </p>
 
             <p className="text-center">
-              The ISBN of the conference procededings for IEE Xplore is:{" "}
+              The ISBN of the conference proceedings for IEEE Xplore is:{" "}
               <span className="font-extrabold">979-8-3503-1295-9</span>
             </p>
           </div>

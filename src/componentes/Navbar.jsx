@@ -94,9 +94,9 @@ const Navbar = () => {
             <Link
               onClick={handleNav}
               className="hover:text-yellow-400 text-center"
-              to="/call-for-papers"
+              to="/beca"
             >
-              Past Events
+              Beca IEEE
             </Link>
           </div>
         </ul>
