@@ -19,17 +19,17 @@ const Links = () => {
       >
         Submission Of Papers
       </Link>
-      <Link className="hover:text-yellow-400 px-3  border-r" to="/program">
-        Program
-      </Link>
+      {/* <Link className="hover:text-yellow-400 px-3  border-r" to="/templates">
+        Templates
+      </Link> */}
       <Link className="hover:text-yellow-400 px-3  border-r" to="/topics">
         Topic
       </Link>
       <Link className="hover:text-yellow-400 px-3  border-r" to="/registration">
         Registration
       </Link>
-      <Link className="hover:text-yellow-400 px-3  border-r" to="#">
-        Committees
+      <Link className="hover:text-yellow-400 px-3  border-r" to="/industry">
+      Industry
       </Link>
       <Link className="hover:text-yellow-400 px-3" to="/beca">
         Beca IEEE

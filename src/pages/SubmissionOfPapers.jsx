@@ -1,5 +1,5 @@
 import React from "react";
-import {BsFillFileWordFill} from "react-icons/bs"
+import { BsFillFileWordFill } from "react-icons/bs";
 
 const SubmissionOfPapers = () => {
   return (
@@ -45,7 +45,7 @@ const SubmissionOfPapers = () => {
               href="/assets/t1.doc"
               className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl flex justify-center items-center gap-2"
             >
-              <BsFillFileWordFill/> <p>Template</p>
+              <BsFillFileWordFill /> <p>Template</p>
             </a>
 
             <p>
@@ -63,7 +63,7 @@ const SubmissionOfPapers = () => {
               href="/assets/t2.doc"
               className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl flex justify-center items-center gap-2"
             >
-              <BsFillFileWordFill/> <p>Template 2</p>
+              <BsFillFileWordFill /> <p>Template 2</p>
             </a>
 
             <p>
@@ -84,7 +84,7 @@ const SubmissionOfPapers = () => {
               href="/assets/t3.doc"
               className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl flex justify-center items-center gap-2"
             >
-              <BsFillFileWordFill/> <p>Template 3</p>
+              <BsFillFileWordFill /> <p>Template 3</p>
             </a>
 
             <p>
@@ -98,7 +98,7 @@ const SubmissionOfPapers = () => {
           All papers must be uploaded using following link
         </h3>
 
-        <div className="flex items-center justify-center" >
+        <div className="flex items-center justify-center">
           <a
             href="https://www.uv.mx/veracruz/microna/icevsubmission/"
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl"
@@ -106,6 +106,27 @@ const SubmissionOfPapers = () => {
             ICEV submission
           </a>
         </div>
+
+        <h3 className="sm:rounded-xl py-4 bg-blue-500 text-center text-white text-xl md:text-3xl px-4 rounded-xl font-semibold my-4">
+          Templates for speakers
+        </h3>
+
+        <div className="flex items-center justify-center">
+          <a
+            href="/assets/ICEV.pptx"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl"
+          >
+            Background ICEV 2023
+          </a>
+
+          <a
+            href="https://brand-experience.ieee.org/templates/ieee-powerpoint-templates/"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl"
+          >
+            official templates IEEE
+          </a>
+        </div>
+
       </div>
     </>
   );

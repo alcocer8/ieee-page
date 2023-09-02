@@ -5,7 +5,7 @@ import logo3 from "../assets/3.jpeg";
 import logo4 from "../assets/4.jpg";
 import logo5 from "../assets/5.png";
 import logo6 from "../assets/6.png";
-import logo7 from "../assets/7.jpeg";
+import logo7 from "../assets/7.jpg";
 import logo8 from "../assets/8.png";
 import logo9 from "../assets/9.png";
 
