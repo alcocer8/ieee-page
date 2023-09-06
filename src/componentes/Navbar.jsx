@@ -59,13 +59,21 @@ const Navbar = () => {
               Submission Of Papers
             </Link>
 
-            {/* <Link
+            <Link
               onClick={handleNav}
               className="hover:text-yellow-400 text-center"
-              to="/templates"
+              to="/camara"
             >
-              Templates
-            </Link> */}
+              Camera Ready
+            </Link>
+
+            <Link
+              onClick={handleNav}
+              className="hover:text-yellow-400 text-center"
+              to="/program"
+            >
+              Program
+            </Link>
 
             <Link
               onClick={handleNav}

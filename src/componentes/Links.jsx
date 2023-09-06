@@ -19,11 +19,14 @@ const Links = () => {
       >
         Submission Of Papers
       </Link>
-      {/* <Link className="hover:text-yellow-400 px-3  border-r" to="/templates">
-        Templates
-      </Link> */}
+      <Link className="hover:text-yellow-400 px-3  border-r" to="/camara">
+        Camera Ready
+      </Link>
       <Link className="hover:text-yellow-400 px-3  border-r" to="/topics">
         Topic
+      </Link>
+      <Link className="hover:text-yellow-400 px-3  border-r" to="/topics">
+        Program
       </Link>
       <Link className="hover:text-yellow-400 px-3  border-r" to="/registration">
         Registration

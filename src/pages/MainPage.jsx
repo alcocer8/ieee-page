@@ -16,7 +16,7 @@ const MainPage = () => {
       <Workshops />
 
       <div class="group fixed bottom-20 right-5 p-2 flex items-end justify-end ">
-        <button class="w-40 h-40 bg-white rounded-full active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
+        <button class="delay-150 hover:-translate-y-1 hover:scale-110 duration-250 w-40 h-40 bg-white rounded-full active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
           <Link
             className="hover:text-yellow-400 text-center"
             to="/industry"

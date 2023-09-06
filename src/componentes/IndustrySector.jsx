@@ -1,4 +1,6 @@
 import React from "react";
+import { industry } from "../industry";
+import CardIndustry from "./CardIndustry";
 
 const IndustrySector = () => {
   return (
@@ -8,7 +10,11 @@ const IndustrySector = () => {
       </div>
 
       <div className="text-xl font-bold uppercase text-center my-5">
-        <p>(In Process)</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-10 mx-auto container">
+          {industry.map((indus, i) => (
+            <CardIndustry key={i} industry={indus} />
+          ))}
+        </div>
       </div>
     </>
   );

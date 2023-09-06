@@ -1,10 +1,8 @@
 import React from "react";
-import FootersLogos from "../componentes/FootterLogos"
-import FootterLogos from "../componentes/FootterLogos";
 
 const Registration = () => {
   return (
-    <>
+    <div className="mx-4">
       <h1 className="text-2xl text-center font-bold my-4 ">
         Registration Fees and Procedure
       </h1>
@@ -28,7 +26,8 @@ const Registration = () => {
             <tr className="bg-blue-500 text-white pb-4">
               <th className="text-center">
                 <h3>
-                  IEEE ICEV 2023 Registration Fees <span className="text-xs">1</span>{" "}
+                  IEEE ICEV 2023 Registration Fees{" "}
+                  <span className="text-xs">1</span>{" "}
                 </h3>
                 <span className="text-red-600">
                   All fees in Mexican Pesos (MXN)
@@ -39,13 +38,14 @@ const Registration = () => {
             </tr>
             <tr>
               <td className="text-center">
-                Author, per each paper presented <span className="text-xs">2</span>{" "}
+                Author, per each paper presented{" "}
+                <span className="text-xs">2</span>{" "}
               </td>
               <td>$ 7,500.00</td>
               <td>$ 4,500.00</td>
             </tr>
             <tr>
-              <td className="text-center">Professio nal attendee</td>
+              <td className="text-center">Professional attendee</td>
               <td>$ 2,000.00</td>
               <td>$ 1,000.00</td>
             </tr>
@@ -72,9 +72,9 @@ const Registration = () => {
           Datos de pago/ Payment Infomation
         </h2>
 
-        <table className="border-separate border-2 border-slate-800 mx-auto text-center" >
+        <table className="border-separate border-2 border-slate-800 mx-auto text-center">
           <tr>
-            <td className="border-2 border-slate-700 " >Beneficiario</td>
+            <td className="border-2 border-slate-700 ">Beneficiario</td>
             <td className="border-2 border-slate-700 px-4">
               INSTITUTO INTERNACIONAL DE INNOVACION TECNOLOGICA INTELIG SC
             </td>
@@ -106,8 +106,24 @@ const Registration = () => {
           </tr>
         </table>
       </div>
-
-    </>
+      <h3 className="sm:rounded-xl py-4 bg-blue-500 text-center text-white text-xl md:text-3xl px-4 rounded-xl font-semibold my-4">
+        Registration
+      </h3>
+      <div className="mt-6 flex">
+        <a
+          href="https://www.uv.mx/veracruz/microna/icevresgistro/"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl"
+        >
+          Author Registration (IEEE-ICEV-2023)
+        </a>
+        <a
+          href="https://www.uv.mx/veracruz/microna/registrationfees/"
+          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-250 px-4 py-2 text-center mx-5 md:w-fit md:mx-auto font-extrabold uppercase bg-gray-500 text-white rounded-xl"
+        >
+          Attendee registration / Registration FEES
+        </a>
+      </div>
+    </div>
   );
 };
 

@@ -57,7 +57,7 @@ export const speakers = [
     theme: "Information retrieval systems in multimedia databases.",
   },
   {
-    name: "Dra. Ana Korina Dias Garcia",
+    name: "Dra. Ana Korina Diaz Garcia",
     pos: [
       "- Head of the Scientific Development Division (COVEICYDET)",
       "- Universidad Veracruzana"
@@ -113,5 +113,23 @@ export const speakers = [
     ],
     img: "/assets/speaker12.jpg",
     theme: " - ",
+  },
+  {
+    name: "Dra. Celia María Calderón Ramón",
+    pos: [
+      " - Doctor en Ciencias en Comunicaciones y Electrónica, Instituto Politécnico Nacional",
+      " - Es miembro del Sistema Nacional de Investigadores, Nivel 1,"
+    ],
+    img: "/assets/speaker13.jpeg",
+    theme: " Electromagnetismo Computacional utilizando el Método de Diferencias Finitas en el Dominio del tiempo ",
+  },
+  {
+    name: "Dra. María Esther Fragoso Terán",
+    pos: [
+      " - Director of the Faculty of Accounting and Business",
+      " - Leadership Training, HEC Montreal"
+    ],
+    img: "/assets/speaker14.jpg",
+    theme: " Social business Creation la plataforma de creación de un modelo de negocios pertinente y competitivo ",
   },
 ];
