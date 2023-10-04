@@ -1,4 +1,3 @@
-import React from "react";
 import { industry } from "../industry";
 import CardIndustry from "./CardIndustry";
 

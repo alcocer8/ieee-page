@@ -2,13 +2,13 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import MainPage from "./pages/MainPage";
 import CallForPapers from "./pages/CallForPapers";
-import Program from "./pages/Program";
 import Topics from "./pages/Topics";
 import Registration from "./pages/Registration";
 import SubmissionOfPapers from "./pages/SubmissionOfPapers";
 import Becapage from "./pages/Becapage";
 import Industries from "./pages/Industries";
 import CamaraReady from "./pages/CamaraReady";
+import Hotel from "./pages/Hotel";
 
 function App() {
   return (
@@ -26,10 +26,10 @@ function App() {
               path="/submission-of-papers"
               element={<SubmissionOfPapers />}
             />
-            <Route path="/camara" element={ <CamaraReady/> } />
+            <Route path="/camara" element={<CamaraReady />} />
             <Route path="/beca" element={<Becapage />} />
             <Route path="/industry" element={<Industries />} />
-            
+            <Route path="/hotel" element={<Hotel />} />
           </Route>
         </Routes>
       </HashRouter>

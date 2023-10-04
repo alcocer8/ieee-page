@@ -9,7 +9,7 @@ const Workshops = () => {
       </div>
 
       <div className="container mx-auto">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="md:grid md:grid-cols-3 gap-4 flex flex-col items-center">
           {wordshops.map((work, i) => (
             <CardWorkshop key={i} workshop={work}/>
           ))}

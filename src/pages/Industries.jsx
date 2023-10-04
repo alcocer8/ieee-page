@@ -1,7 +1,5 @@
-import React from "react";
 import { industry } from "../industry";
 import CardIndustry from "../componentes/CardIndustry";
-import x from "../assets/fiesta.jpeg";
 
 function Industries() {
   return (
@@ -11,17 +9,6 @@ function Industries() {
           <CardIndustry key={i} industry={indus} />
         ))}
       </div>
-
-      <hr />
-
-      <img
-        id="fiesta"
-        src={x}
-        alt=""
-        srcset=""
-        className="mt-8 mx-auto rounded-xl"
-        width="50%"
-      />
     </>
   );
 }

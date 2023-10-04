@@ -1,6 +1,6 @@
 
 function CardWorkshop({workshop}) {
-    const {titulo, master, img} = workshop;
+    const {titulo, master, img, horario, lugar, href} = workshop;
 
   return (
     <div class="max-w-sm rounded-xl">
@@ -13,11 +13,17 @@ function CardWorkshop({workshop}) {
             {titulo}
           </h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 ">
+        <p class="mb-3 font-normal text-blue-700 ">
           {master}
         </p>
-        {/* <a
-          href="#"
+        <p class="mb-3 font-normal text-white ">
+          Lugar: {lugar}
+        </p>
+        <p class="mb-3 font-normal text-white ">
+          Hora: {horario}
+        </p>
+        <a
+          href={href}
           class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           Inscribirse
@@ -36,7 +42,7 @@ function CardWorkshop({workshop}) {
               d="M1 5h12m0 0L9 1m4 4L9 9"
             />
           </svg>
-        </a> */}
+        </a>
       </div>
     </div>
   );
@@ -49,5 +55,6 @@ CardWorkshop.defaultProps = {
     titulo: "Titulo",
     master: " - ",
     img: " - ",
+    href: "#",
   },
 };

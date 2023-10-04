@@ -17,7 +17,7 @@ export const speakers = [
       "- Ingeniería Mecatrónica",
       "- Advisor Studen Branch Chapter (RAS)",
     ],
-    img: "/assets/speaker2.jpeg",   
+    img: "/assets/speaker2.jpeg",
     theme: "Control de robots multiagente.",
   },
   {
@@ -27,8 +27,9 @@ export const speakers = [
       "- National Researcher Level 1",
     ],
     img: "/assets/speaker3.jpeg",
-    theme: "Determinación electroanalítica de metales empleando electrodos modificados de pasta de carbono.",
-  },  
+    theme:
+      "Determinación electroanalítica de metales empleando electrodos modificados de pasta de carbono.",
+  },
   {
     name: "Dr. Yehoshua Aguilar Molina",
     pos: [
@@ -39,13 +40,14 @@ export const speakers = [
     theme: " - ",
   },
   {
-    name: "Dra. Lizbeth Angelica Castañeda Escobar",
-    pos: [ 
+    name: "Dra. Lizbeth Angélica Castañeda Escobar",
+    pos: [
       "- Doctora en Ciencias con especialidad en Óptica por el Instituto Nacional de Astrofísica, Óptica y Electrónica",
-      "- Miembro del Padrón Veracruzano de Investigadores (PIV) avalado por el Consejo Veracruzano de Investigación Científica y Desarrollo Tecnológico"
+      "- Miembro del Padrón Veracruzano de Investigadores (PIV) avalado por el Consejo Veracruzano de Investigación Científica y Desarrollo Tecnológico",
     ],
     img: "/assets/speaker5.jpeg",
-    theme: "La inteligencia Artificial: su evolución  y su llegada a la cotidianidad.",
+    theme:
+      "La inteligencia Artificial: su evolución  y su llegada a la cotidianidad.",
   },
   {
     name: "Dra. Karina Mariela Figueroa Mora",
@@ -57,11 +59,10 @@ export const speakers = [
     theme: "Information retrieval systems in multimedia databases.",
   },
   {
-    name: "Dra. Ana Korina Diaz Garcia",
+    name: "Dra. Ana Korina Díaz García",
     pos: [
       "- Head of the Scientific Development Division (COVEICYDET)",
-      "- Universidad Veracruzana"
-
+      "- Universidad Veracruzana",
     ],
     img: "/assets/speaker7.jpeg",
     theme: "Desarrollo de una célula tándem fotoelectroquímica y sus desafíos.",
@@ -71,10 +72,11 @@ export const speakers = [
     pos: [
       "- Doctor en ingeniería en tecnologías emergentes por la Universidad Cristóbal Colón",
       "- Maestro en administración de la construcción y Maestro en ingeniería administrativa",
-      "- Director general de Grupo PIRO"
+      "- Director general de Grupo PIRO",
     ],
     img: "/assets/speaker8.jpg",
-    theme: "Energía oceánica, evaluando las profundidades de una fuente sostenible e inagotable.",
+    theme:
+      "Energía oceánica, evaluando las profundidades de una fuente sostenible e inagotable.",
   },
   {
     name: "Dr. Alberto Servín Martínez",
@@ -93,7 +95,8 @@ export const speakers = [
       "- Universidad Veracruzana",
     ],
     img: "/assets/speaker10.png",
-    theme: "Combustibles Renovables y Su Implementacíon En Camaras De Combustíon",
+    theme:
+      "Combustibles Renovables y Su Implementacíon En Camaras De Combustíon",
   },
   {
     name: "Dr. Efrain Carpintero Moreno",
@@ -103,7 +106,8 @@ export const speakers = [
       "- Master’s Degree - Mechanical Engineering ",
     ],
     img: "/assets/speaker11.jpg",
-    theme: "Ocean Energy Capture: Test case for Mexican sites with combined system solutions",
+    theme:
+      "Ocean Energy Capture: Test case for Mexican sites with combined system solutions",
   },
   {
     name: "Mtra. Miriam Prazmowska-Toporowska.",
@@ -118,18 +122,57 @@ export const speakers = [
     name: "Dra. Celia María Calderón Ramón",
     pos: [
       " - Doctor en Ciencias en Comunicaciones y Electrónica, Instituto Politécnico Nacional",
-      " - Es miembro del Sistema Nacional de Investigadores, Nivel 1,"
+      " - Es miembro del Sistema Nacional de Investigadores, Nivel 1,",
     ],
     img: "/assets/speaker13.jpeg",
-    theme: " Electromagnetismo Computacional utilizando el Método de Diferencias Finitas en el Dominio del tiempo ",
+    theme:
+      " Electromagnetismo Computacional utilizando el Método de Diferencias Finitas en el Dominio del tiempo ",
   },
   {
     name: "Dra. María Esther Fragoso Terán",
     pos: [
       " - Director of the Faculty of Accounting and Business",
-      " - Leadership Training, HEC Montreal"
+      " - Leadership Training, HEC Montreal",
     ],
     img: "/assets/speaker14.jpg",
-    theme: " Social business Creation la plataforma de creación de un modelo de negocios pertinente y competitivo ",
+    theme:
+      " Social business Creation la plataforma de creación de un modelo de negocios pertinente y competitivo ",
+  },
+  {
+    name: "Mtro. Jorge Miguel Uscanga Villalba",
+    pos: [
+      " - Sub Director de la Secretaría de Educación de Veracruz",
+    ],
+    img: "/assets/speaker15.jpeg",
+    theme: " - ",
+  },
+  {
+    name: "Dra. Andrea Guadalupe Martínez López",
+    pos: [
+      " - Miembro del Sistema Nacional de Investigadores",
+      " - Lider del Cuerpo Académico Consolidado Micro y Nanosistemas (MICRONA)",
+    ],
+    img: "/assets/speaker16.jpg",
+    theme: " - ",
+  },
+  {
+    name: "Dr. José Luis Vázquez González",
+    pos: [
+      " - Dr. en Ciencias con Esp. en Electrónica, 1999 INAOE",
+      " - Director Académico del departamento de Computación, Electrónica y Mecatrónica. UDLAP",
+      " - Senior Member IEEE, fundador de la sección Puebla",
+    ],
+    img: "/assets/speaker17.jpg",
+    theme: "La Inteligencia Artificial y el Diseño de Circuitos Integrados",
+  },
+  {
+    name: "Dra. María Del Refugio Castañeda Chávez",
+    pos: [
+      " - Tecnológico Nacional De México Campus Boca Del Rio",
+      " - Miembro Del Sistema Nacional De Investigadores Del CONAHCYT",
+      " - Miembro de la Sociedad Mexicana de Biotecnología y Bioingeniería",
+    ],
+    img: "/assets/speaker18.png",
+    theme: " - ",
   },
 ];
