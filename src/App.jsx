@@ -9,6 +9,8 @@ import Becapage from "./pages/Becapage";
 import Industries from "./pages/Industries";
 import CamaraReady from "./pages/CamaraReady";
 import Hotel from "./pages/Hotel";
+import Program from "./pages/Program";
+import Keynotes from "./pages/Keynotes";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
             <Route path="/beca" element={<Becapage />} />
             <Route path="/industry" element={<Industries />} />
             <Route path="/hotel" element={<Hotel />} />
+            <Route path="/program" element={<Program />} />
+            <Route path="/keynotes" element={<Keynotes />} />
+            
           </Route>
         </Routes>
       </HashRouter>

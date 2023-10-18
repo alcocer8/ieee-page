@@ -15,6 +15,7 @@ dist-ssr
 # Editor directories and files
 dist*
 files/
+src/assets/*
 .vscode/*
 !.vscode/extensions.json
 .idea

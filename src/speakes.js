@@ -8,7 +8,8 @@ export const speakers = [
     ],
     img: "/assets/speaker1.jpg",
     theme:
-      "El impacto de la fibra óptica en los sistemas de comunicaciones del siglo XXI.",
+      "El Impacto de la Fibra Óptica en los Sistemas de Comunicaciones del Siglo XXI",
+    flyer: "/assets/f-speaker1.jpeg",
   },
   {
     name: "Dr. Rogelio de Jesús Portillo Vélez",
@@ -18,7 +19,8 @@ export const speakers = [
       "- Advisor Studen Branch Chapter (RAS)",
     ],
     img: "/assets/speaker2.jpeg",
-    theme: "Control de robots multiagente.",
+    theme: "Control de Robots Multiagente”",
+    flyer: "/assets/f-speaker2.jpeg",
   },
   {
     name: "Dra. Patricia Balderas Hernández",
@@ -28,7 +30,8 @@ export const speakers = [
     ],
     img: "/assets/speaker3.jpeg",
     theme:
-      "Determinación electroanalítica de metales empleando electrodos modificados de pasta de carbono.",
+      "Determinación Electroanalítica de Metales empleando Electrodos modificados de Pasta de Carbono",
+    flyer: "/assets/f-speaker3.jpeg",
   },
   {
     name: "Dr. Yehoshua Aguilar Molina",
@@ -37,7 +40,9 @@ export const speakers = [
       "- IEEE Section Guadalajara Chair",
     ],
     img: "/assets/speaker4.jpg",
-    theme: " - ",
+    theme:
+      "Implementación de la metodología Mecatrónica Educativa en el Diseño y Simulación de Aplicaciones de Realidad Aumentada",
+    flyer: "/assets/f-speaker4.jpeg",
   },
   {
     name: "Dra. Lizbeth Angélica Castañeda Escobar",
@@ -48,6 +53,7 @@ export const speakers = [
     img: "/assets/speaker5.jpeg",
     theme:
       "La inteligencia Artificial: su evolución  y su llegada a la cotidianidad.",
+    flyer: "/assets/f-speaker5.jpeg",
   },
   {
     name: "Dra. Karina Mariela Figueroa Mora",
@@ -56,27 +62,28 @@ export const speakers = [
       "- Researcher at the Faculty of Physical-Mathematical Sciences of the Michoacana University of San Nicolás de Hidalgo in Mexico",
     ],
     img: "/assets/speaker6.jpeg",
-    theme: "Information retrieval systems in multimedia databases.",
+    theme: "Information Retrieval Systems in Multimedia Databases",
+    flyer: "/assets/f-speaker6.jpeg",
   },
   {
-    name: "Dra. Ana Korina Díaz García",
+    name: "Dra. Ana Korina Díaz García",
     pos: [
       "- Head of the Scientific Development Division (COVEICYDET)",
       "- Universidad Veracruzana",
     ],
     img: "/assets/speaker7.jpeg",
-    theme: "Desarrollo de una célula tándem fotoelectroquímica y sus desafíos.",
+    theme: "Desarrollo de una Célula Tándem Fotoelectroquímica y sus Desafíos",
+    flyer: "/assets/f-speaker7.jpeg",
   },
   {
-    name: "Dr. Juan Antonio Pinilla Rodríguez",
+    name: "Dr. Felipe De Jesús Pozos Texon",
     pos: [
-      "- Doctor en ingeniería en tecnologías emergentes por la Universidad Cristóbal Colón",
-      "- Maestro en administración de la construcción y Maestro en ingeniería administrativa",
-      "- Director general de Grupo PIRO",
+      
     ],
-    img: "/assets/speaker8.jpg",
+    img: "",
     theme:
-      "Energía oceánica, evaluando las profundidades de una fuente sostenible e inagotable.",
+      "Ciberseguridad: Vulnerabilidades En Las Apliaciones De Las Pequeñas Y Medianas Empresas",
+    flyer: "/assets/f-speaker8.jpeg",
   },
   {
     name: "Dr. Alberto Servín Martínez",
@@ -85,7 +92,8 @@ export const speakers = [
       "- Investigador en Tecnologico Nacional de Mexico Campus Veracruz.",
     ],
     img: "/assets/speaker9.jpg",
-    theme: " - ",
+    theme: "In Situ Resources  Utilization (ISRU)",
+    flyer: "/assets/f-speaker19.jpeg",
   },
   {
     name: "Dra. María Elena Tejeda del Cueto",
@@ -96,7 +104,8 @@ export const speakers = [
     ],
     img: "/assets/speaker10.png",
     theme:
-      "Combustibles Renovables y Su Implementacíon En Camaras De Combustíon",
+      "Combustibles Renovables y su implementacíon en camaras de combustíon",
+    flyer: "/assets/f-speaker10.jpeg",
   },
   {
     name: "Dr. Efrain Carpintero Moreno",
@@ -107,16 +116,15 @@ export const speakers = [
     ],
     img: "/assets/speaker11.jpg",
     theme:
-      "Ocean Energy Capture: Test case for Mexican sites with combined system solutions",
+      "Ocean Energy Capture: Test Case for Mexican Sites with Combined System Solutions",
+    flyer: "/assets/f-speaker11.jpeg",
   },
   {
-    name: "Mtra. Miriam Prazmowska-Toporowska.",
-    pos: [
-      "- Universidad de Cardiff - Redes de Distribución de Voltaje Medio:",
-      "- Universidad de Birmingham - Ciencias Físicas para la Salud",
-    ],
+    name: "Mtra. Paulina Gutérrez León",
+    pos: [" - Tecnólogico Nacional De México/Instituto Tecnólogico Veracruz"],
     img: "/assets/speaker12.jpg",
-    theme: " - ",
+    theme: "Detección y Diagnóstico de Fallas en Sistemas: Caso de Estudio",
+    flyer: "/assets/f-speaker12.jpeg",
   },
   {
     name: "Dra. Celia María Calderón Ramón",
@@ -126,7 +134,8 @@ export const speakers = [
     ],
     img: "/assets/speaker13.jpeg",
     theme:
-      " Electromagnetismo Computacional utilizando el Método de Diferencias Finitas en el Dominio del tiempo ",
+      "Electromagnetismo Computacional utilizando el Método de Diferencias Finitas en el Dominio del Tiempo",
+    flyer: "/assets/f-speaker13.jpeg",
   },
   {
     name: "Dra. María Esther Fragoso Terán",
@@ -136,15 +145,16 @@ export const speakers = [
     ],
     img: "/assets/speaker14.jpg",
     theme:
-      " Social business Creation la plataforma de creación de un modelo de negocios pertinente y competitivo ",
+      "Social Business Creation la Plataforma de Creación de un Modelo de Negocios Pertinente y Competitivo",
+    flyer: "/assets/f-speaker14.jpeg",
   },
   {
     name: "Mtro. Jorge Miguel Uscanga Villalba",
-    pos: [
-      " - Sub Director de la Secretaría de Educación de Veracruz",
-    ],
+    pos: [" - Sub Director de la Secretaría de Educación de Veracruz"],
     img: "/assets/speaker15.jpeg",
-    theme: " - ",
+    theme:
+      "Formando Ciudadanas y Ciudadanos considerando las Nuevas Tecnologías",
+    flyer: "/assets/f-speaker15.jpeg",
   },
   {
     name: "Dra. Andrea Guadalupe Martínez López",
@@ -153,7 +163,9 @@ export const speakers = [
       " - Lider del Cuerpo Académico Consolidado Micro y Nanosistemas (MICRONA)",
     ],
     img: "/assets/speaker16.jpg",
-    theme: " - ",
+    theme:
+      "Metal Oxide Semiconductors-Based building Materials for Environmental Applications",
+    flyer: "/assets/f-speaker16.jpeg",
   },
   {
     name: "Dr. José Luis Vázquez González",
@@ -164,15 +176,28 @@ export const speakers = [
     ],
     img: "/assets/speaker17.jpg",
     theme: "La Inteligencia Artificial y el Diseño de Circuitos Integrados",
+    flyer: "/assets/f-speaker17.jpeg",
   },
   {
     name: "Dra. María Del Refugio Castañeda Chávez",
     pos: [
-      " - Tecnológico Nacional De México Campus Boca Del Rio",
-      " - Miembro Del Sistema Nacional De Investigadores Del CONAHCYT",
-      " - Miembro de la Sociedad Mexicana de Biotecnología y Bioingeniería",
+      " - Tecnólogico Nacional De México/Instituto Tecnólogico De Boca Del Rio",
+      " - Jefe De Laboratorio Lira",
+      " - Profesor - Investigador",
     ],
     img: "/assets/speaker18.png",
-    theme: " - ",
+    theme: "Water Stress",
+    flyer: "/assets/f-speaker18.jpeg",
+  },
+  {
+    name: "Dra. Maria Estela Montes Carmona",
+    pos: [
+      " - Miebro de Red Mexicana de Bioenergía, A.C.",
+      " - Doctorado en Ingeniería en Territorio y Medio Ambiente Universidad Politécnica de Madrid",
+      " - Vocal del Consejo Consultivo para la Sustentabilidad de la Universidad Veracruzana",
+    ],
+    img: "/assets/speaker19.jpg",
+    theme: "Industria 5.0, sustentable o sostenible",
+    flyer: "/assets/f-speaker19.jpeg",
   },
 ];

@@ -106,6 +106,13 @@ const Navbar = () => {
             >
               Beca IEEE
             </Link>
+            <Link
+              onClick={handleNav}
+              className="hover:text-yellow-400 text-center"
+              to="/keynotes"
+            >
+              Keynote Speakers
+            </Link>
           </div>
         </ul>
       </div>

@@ -3,6 +3,7 @@ import Events from "../componentes/Events";
 import KeynoteSpeakers from "../componentes/KeynoteSpeakers";
 import IndustrySector from "../componentes/IndustrySector";
 import Workshops from "../componentes/Workshops";
+import EventsProgram from "../componentes/EventsProgram";
 import x2 from "../assets/fiesta.png";
 import martin from "../assets/industry4.jpeg";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const MainPage = () => {
       <KeynoteSpeakers />
       <IndustrySector />
       <Workshops />
+      <EventsProgram/>
 
       <div class="group fixed bottom-20 left-5 p-2 flex items-end justify-end ">
         <a

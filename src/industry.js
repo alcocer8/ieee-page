@@ -19,4 +19,16 @@ export const industry = [
         title : "Laboratorio de Diseño y Simulacion Naval 4.0",
         img : "/assets/industry5.jpeg"
     },
+    {
+        title : "ehecatl SOFTWARE SERVICES",
+        img : "/assets/industry6.jpeg"
+    },
+    {
+        title : "Verse Technology",
+        img : "/assets/industry7.jpeg"
+    },
+    {
+        title : "Consultoría Chávez Carmona",
+        img : "/assets/industry8.jpeg"
+    },
 ]
