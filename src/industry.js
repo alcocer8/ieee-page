@@ -31,4 +31,12 @@ export const industry = [
         title : "Consultoría Chávez Carmona",
         img : "/assets/industry8.jpeg"
     },
+    {
+        title : "FERREPICH",
+        img : "/assets/industry9.jpeg"
+    },
+    {
+        title : "TENARIS TAMSA",
+        img : "/assets/industry8.jpeg"
+    },
 ]

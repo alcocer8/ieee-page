@@ -43,8 +43,14 @@ const Links = () => {
         </Link>
       </ul>
       <ul className="hidden md:flex text-center text-sm font-bold mt-2">
+        <Link className="hover:text-yellow-400 px-3" to="/committe">
+          Committee
+        </Link>
         <Link className="hover:text-yellow-400 px-3" to="/keynotes">
           Keynote Speakers
+        </Link>
+        <Link className="hover:text-yellow-400 px-3" to="/call-for-papers-2024">
+          IEEE ICEV 2024
         </Link>
       </ul>
     </div>

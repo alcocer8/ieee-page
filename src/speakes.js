@@ -80,7 +80,7 @@ export const speakers = [
     pos: [
       
     ],
-    img: "",
+    img: "/assets/speaker8.jpeg",
     theme:
       "Ciberseguridad: Vulnerabilidades En Las Apliaciones De Las Pequeñas Y Medianas Empresas",
     flyer: "/assets/f-speaker8.jpeg",
@@ -199,5 +199,56 @@ export const speakers = [
     img: "/assets/speaker19.jpg",
     theme: "Industria 5.0, sustentable o sostenible",
     flyer: "/assets/f-speaker19.jpeg",
+  },
+  {
+    name: "Mtro. Jesus A. Juárez Guerrero",
+    pos: [
+      " - Tenaris Tamsa",
+      " - Master Artificial Intelligence, University Edinburgh",
+      " - Vocal del Consejo Consultivo para la Sustentabilidad de la Universidad Veracruzana",
+    ],
+    img: "/assets/speaker20.png",
+    theme: "EL USO DE IA Y SU IMPACTO EN EL FACTOR HUMANO",
+    flyer: "/assets/f-speaker20.jpeg",
+  },
+  {
+    name: "Mtro. Eliseo Ortiz Valdez",
+    pos: [
+      " - Hecatl Software Services",
+    ],
+    img: "/assets/speaker21.jpeg",
+    theme: "HACIA UN DESARROLO DE SOFTWARE SIN DEFECTOS",
+    flyer: "/assets/f-speaker21.jpeg",
+  },
+  {
+    name: "Mtro. Norma Carrillo",
+    pos: [
+      " - America Digital",
+      " - Universidad Autónoma Metropolitana",
+    ],
+    img: "/assets/speaker22.jpeg",
+    theme: "PROGRAMA CISCO NETWORKING ACADEMY",
+    flyer: "/assets/f-speaker22.jpeg",
+  },
+  {
+    name: "Lic. Laura Elena Herrera Bravo",
+    pos: [
+      " - Líder Womcy G&G -LATAM Women in Cybersecurity",
+      " - IPADE Bussiness School",
+    ],
+    img: "/assets/speaker23.jpeg",
+    theme: "INTELIGENCIA ARTIFICIAL",
+    flyer: "/assets/f-speaker23.jpeg",
+  },
+  {
+    name: "Lic. Aarón Benítez",
+    pos: [
+      " - VERSE Technology",
+      " - Instituto Tecnológico Nacional de México",
+      " - ITESM"
+    ],
+    img: "/assets/speaker24.jpg",
+    theme: "INDUSTRIA 4.0",
+    flyer: "/assets/f-speaker24.jpeg",
   },
 ];

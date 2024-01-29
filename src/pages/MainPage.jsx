@@ -7,11 +7,20 @@ import EventsProgram from "../componentes/EventsProgram";
 import x2 from "../assets/fiesta.png";
 import martin from "../assets/industry4.jpeg";
 import { Link } from "react-router-dom";
+import IEEE2024 from "../assets/IEEE-2024.png"
 
 const MainPage = () => {
   return (
     <>
       <Hero />
+      <div className="bg-blue-500 text-center text-white uppercase mb-2 p-8">
+        <h2 className=" md:text-4xl text-2xl font-bold">IEEE ICEV 2024</h2>
+        <p className="text-sm md:text-xl">
+          {" "}
+          CALL FOR PAPERS
+        </p>
+      </div>
+      <img src={IEEE2024} className="md:w-2/4 mx-auto" alt="" srcset="" />
       <Events />
       <KeynoteSpeakers />
       <IndustrySector />
